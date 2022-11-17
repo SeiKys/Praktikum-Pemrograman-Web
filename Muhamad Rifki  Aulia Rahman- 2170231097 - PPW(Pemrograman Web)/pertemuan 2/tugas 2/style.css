@@ -1,0 +1,78 @@
+body{
+	background: linear-gradient(to right, rgb(4, 214, 221),rgb(82, 255, 2))
+}
+ul{
+	text-align: right;
+}
+.nav-item{
+	display: inline;
+	margin: 5px;
+	padding: 6px;
+	background-color: turquoise;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a:link{
+	color: #FFC93C;
+}
+
+a:hover{
+
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #FFC93C;
+}
+
+a:active{
+	color: yellow;
+}
+
+
+h1{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #07689F;
+	margin-top: 100px;
+	text-align: center;
+}
+
+h2{
+	font-family: monospace;
+	font-size: 20px;
+	color: #07689F;
+}
+
+footer{
+	text-align: center;
+	margin-top: 400px;
+}
+
+table{
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+table td,
+table th{
+	border: 2px solid #ccc;
+	padding: 8px;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+
+table th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: cyan;
+	color: black;
+}
